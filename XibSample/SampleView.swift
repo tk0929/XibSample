@@ -11,9 +11,11 @@ import UIKit
 final class SampleView: UIView {
     
     
+    @IBOutlet weak var centerLabel: UILabel!
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
-    
+        
         loadNib()
         
     }
@@ -28,9 +30,14 @@ final class SampleView: UIView {
     
     private func loadNib() {
         
-        let view = Bundle.main.loadNibNamed("SampleView", owner: self, options: nil)?.first as! UIView 
+//        xibファイルの読み込み
+        let nib = UINib(nibName: "SampleView", bundle: nil)
+        guard let view = nib.instantiate(withOwner: self, options: nil).first as? UIView else{return}
         
+//        xibのビューのサイズをカスタムクラスのビューに合わせる
         view.frame = self.bounds
+
+//        xibから読み込んだビューをカスタムクラスのサブビューに追加
         self.addSubview(view)
         
     }
