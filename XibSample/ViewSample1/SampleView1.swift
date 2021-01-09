@@ -8,7 +8,7 @@
 import UIKit
 
 
-final class SampleView: UIView {
+final class SampleView1: UIView {
     
     
     @IBOutlet weak var centerLabel: UILabel!
@@ -31,7 +31,7 @@ final class SampleView: UIView {
     private func loadNib() {
         
 //        xibファイルの読み込み
-        let nib = UINib(nibName: "SampleView", bundle: nil)
+        let nib = UINib(nibName: "SampleView1", bundle: nil)
         guard let view = nib.instantiate(withOwner: self, options: nil).first as? UIView else{return}
         
 //        xibのビューのサイズをカスタムクラスのビューに合わせる

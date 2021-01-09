@@ -10,9 +10,6 @@ import UIKit
 
 final class SampleView3: UIView {
     
-    
-    @IBOutlet weak var centerLabel: UILabel!
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -26,7 +23,6 @@ final class SampleView3: UIView {
         loadNib()
         
     }
-    
     
     private func loadNib() {
         

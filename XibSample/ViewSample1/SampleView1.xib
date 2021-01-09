@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SampleView" customModule="XibSample" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SampleView1" customModule="XibSample" customModuleProvider="target">
             <connections>
                 <outlet property="centerLabel" destination="R0A-mR-tqf" id="fZF-1g-bqG"/>
             </connections>
@@ -19,11 +19,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="テスト" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0A-mR-tqf">
-                    <rect key="frame" x="112.5" y="258.5" width="150" height="150"/>
+                    <rect key="frame" x="75" y="277.5" width="225" height="112.5"/>
                     <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="150" id="0jg-5O-WPN"/>
-                        <constraint firstAttribute="height" constant="150" id="ONK-vT-7At"/>
+                        <constraint firstAttribute="width" secondItem="R0A-mR-tqf" secondAttribute="height" multiplier="2:1" id="6MZ-yL-mHF"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                     <nil key="textColor"/>
@@ -33,8 +32,9 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="R0A-mR-tqf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dgh-X7-P9e"/>
-                <constraint firstItem="R0A-mR-tqf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="gVB-03-sAJ"/>
+                <constraint firstItem="R0A-mR-tqf" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="60:100" id="KBi-5H-qb7"/>
+                <constraint firstItem="R0A-mR-tqf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="cHE-y6-adG"/>
+                <constraint firstItem="R0A-mR-tqf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="l44-Fk-zDB"/>
             </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>

@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SampleView3" customModule="XibSample" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SampleView4" customModule="XibSample" customModuleProvider="target"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -18,7 +18,7 @@
                     <rect key="frame" x="0.0" y="617" width="375" height="50"/>
                     <color key="backgroundColor" red="0.94137340784072876" green="0.76314467191696167" blue="0.1268039345741272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="50" id="KDn-Yc-Lrh"/>
+                        <constraint firstAttribute="width" secondItem="12g-Hu-jGD" secondAttribute="height" multiplier="15:2" id="84x-Lc-rfU"/>
                     </constraints>
                     <state key="normal" title="ボタン1"/>
                 </button>
@@ -26,7 +26,7 @@
                     <rect key="frame" x="0.0" y="567" width="375" height="50"/>
                     <color key="backgroundColor" systemColor="systemGreenColor"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="50" id="Yab-lb-GA5"/>
+                        <constraint firstAttribute="width" secondItem="svC-5E-5Mz" secondAttribute="height" multiplier="15:2" id="s90-0A-YE5"/>
                     </constraints>
                     <state key="normal" title="ボタン2"/>
                 </button>
@@ -34,12 +34,12 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="12g-Hu-jGD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="7eL-zW-YJH"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="12g-Hu-jGD" secondAttribute="trailing" id="Acx-2C-b7r"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="12g-Hu-jGD" secondAttribute="bottom" id="HW8-Kg-xBH"/>
-                <constraint firstItem="12g-Hu-jGD" firstAttribute="top" secondItem="svC-5E-5Mz" secondAttribute="bottom" id="IM5-Z3-RCe"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="svC-5E-5Mz" secondAttribute="trailing" id="Vwg-hD-dQi"/>
-                <constraint firstItem="svC-5E-5Mz" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="rLm-x3-jCm"/>
+                <constraint firstItem="12g-Hu-jGD" firstAttribute="top" secondItem="svC-5E-5Mz" secondAttribute="bottom" id="435-fo-B3S"/>
+                <constraint firstItem="svC-5E-5Mz" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="4SW-e9-R6F"/>
+                <constraint firstItem="12g-Hu-jGD" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="6cP-5G-wCp"/>
+                <constraint firstItem="12g-Hu-jGD" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="6fQ-fm-Akp"/>
+                <constraint firstItem="svC-5E-5Mz" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Tqd-bP-MRQ"/>
+                <constraint firstItem="12g-Hu-jGD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="UJd-QA-Ilv"/>
             </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
