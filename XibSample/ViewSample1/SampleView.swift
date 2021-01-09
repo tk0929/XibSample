@@ -7,7 +7,7 @@
 
 import UIKit
 
-@IBDesignable
+
 final class SampleView: UIView {
     
     
