@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SampleView6" customModule="XibSample" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6N-Tg-etE">
+                    <rect key="frame" x="0.0" y="100" width="120.5" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Zin-T2-uVF"/>
+                    </constraints>
+                    <state key="normal" title="Button1">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqw-an-QNV">
+                    <rect key="frame" x="120.5" y="100" width="127" height="50"/>
+                    <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="DfH-b5-X8t"/>
+                    </constraints>
+                    <state key="normal" title="Button2">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7h-j5-aLM">
+                    <rect key="frame" x="247.5" y="100" width="127.5" height="50"/>
+                    <color key="backgroundColor" systemColor="systemTealColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="sH8-Sz-IGf"/>
+                    </constraints>
+                    <state key="normal" title="Button3">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="uqw-an-QNV" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="3uO-EV-q7W"/>
+                <constraint firstItem="E6N-Tg-etE" firstAttribute="width" secondItem="uqw-an-QNV" secondAttribute="width" multiplier="0.945455" id="JxZ-fa-rgw"/>
+                <constraint firstItem="E6N-Tg-etE" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="NtY-sI-O6a"/>
+                <constraint firstItem="M7h-j5-aLM" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="cdZ-wD-Qbv"/>
+                <constraint firstItem="M7h-j5-aLM" firstAttribute="leading" secondItem="uqw-an-QNV" secondAttribute="trailing" id="gAS-LE-qdL"/>
+                <constraint firstItem="E6N-Tg-etE" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ilk-O7-Uyc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="M7h-j5-aLM" secondAttribute="trailing" id="p5a-zL-9el"/>
+                <constraint firstItem="E6N-Tg-etE" firstAttribute="width" secondItem="M7h-j5-aLM" secondAttribute="width" multiplier="0.945455" id="rW7-N3-5qp"/>
+                <constraint firstItem="uqw-an-QNV" firstAttribute="leading" secondItem="E6N-Tg-etE" secondAttribute="trailing" id="vNs-uU-Htp"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="-389.23076923076923" y="-1005.5687203791468"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
